@@ -29,18 +29,24 @@
         <?php //echo do_shortcode('[gm_slideshow]'); ?>
       </div>
     </div>
+
+    <section class="cta-wrapper">
+      <div class="container">
+        <?php dynamic_sidebar('call-to-action-a'); ?>
+        <?php dynamic_sidebar('call-to-action-b'); ?>
+        <?php dynamic_sidebar('call-to-action-c'); ?>
+      </div>
+    </section>
     
     <?php } else { ?>
 
     <div class="interior-banner-wrap">
       <div class="interior-banner container">
-        <h2 class="banner text-center"><?php the_title(); ?></h2>
+        <h2 class="banner-title text-center"><?php the_title(); ?></h2>
       </div>
     </div>
 
     <?php } ?>
-
-
 
 
   <div class="wrap container" role="document">
@@ -56,6 +62,17 @@
       <?php endif; ?>
     </div><!-- /.content -->
   </div><!-- /.wrap -->
+
+  <?php if( !is_front_page() ) { ?>
+    <section class="cta-wrapper">
+      <div class="container">
+        <?php dynamic_sidebar('call-to-action-a'); ?>
+        <?php dynamic_sidebar('call-to-action-b'); ?>
+        <?php dynamic_sidebar('call-to-action-c'); ?>
+      </div>
+    </section>
+
+  <?php } ?>
 
   <?php get_template_part('templates/footer'); ?>
 

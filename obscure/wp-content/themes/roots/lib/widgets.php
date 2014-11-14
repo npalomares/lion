@@ -14,6 +14,33 @@ function roots_widgets_init() {
   ));
 
   register_sidebar(array(
+    'name'          => __('Call to Action A', 'roots'),
+    'id'            => 'call-to-action-a',
+    'before_widget' => '<section class="col-sm-4 widget %1$s %2$s"><div class="widget-inner">',
+    'after_widget'  => '</div></section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>',
+  ));
+
+  register_sidebar(array(
+    'name'          => __('Call to Action B', 'roots'),
+    'id'            => 'call-to-action-b',
+    'before_widget' => '<section class="col-sm-4 widget %1$s %2$s"><div class="widget-inner">',
+    'after_widget'  => '</div></section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>',
+  ));
+
+  register_sidebar(array(
+    'name'          => __('Call to Action C', 'roots'),
+    'id'            => 'call-to-action-c',
+    'before_widget' => '<section class="col-sm-4 widget %1$s %2$s"><div class="widget-inner">',
+    'after_widget'  => '</div></section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>',
+  ));
+
+  register_sidebar(array(
     'name'          => __('Footer', 'roots'),
     'id'            => 'sidebar-footer',
     'before_widget' => '<section class="widget %1$s %2$s"><div class="widget-inner">',
