@@ -77,17 +77,28 @@ body.about .left {
 
 
 /*Form Styles*/
+<<<<<<< HEAD
+body.contact input[type="text"],
+body.contact input[type="email"],
+body.contact textarea {
+=======
 body.contact-us input[type="text"],
 body.contact-us input[type="email"],
 body.contact-us textarea {
+>>>>>>> 0b64e224af03746961827ff7f604b16daca20603
 	width: 100%;
 	border: 1px solid #ccc;
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
 	border-radius: 8px;
 }
+<<<<<<< HEAD
+body.contact input[type="text"],
+body.contact input[type="email"] {
+=======
 body.contact-us input[type="text"],
 body.contact-us input[type="email"] {
+>>>>>>> 0b64e224af03746961827ff7f604b16daca20603
 	height: 40px;
 }
 .footer-wrap {

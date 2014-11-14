@@ -21,7 +21,15 @@
   <?php if( is_front_page() ) { ?>
     <div class="slideshow-wrap">
       <div class="slideshow container">
+<<<<<<< HEAD
+        <h6 class="text-center"><i>Opening December 2nd, 2014</i></h6>
+        <?php //echo do_shortcode('[gm_slideshow]'); ?>
+        <p class="text-center">
+          <img src="http://localhost/lion/obscure/media/logoSM.jpg" alt="The Little Lion Cafe and Bar" title="The Little Lion Cafe and Bar" class="" />
+        </p>
+=======
         <?php echo do_shortcode('[gm_slideshow]'); ?>
+>>>>>>> 0b64e224af03746961827ff7f604b16daca20603
       </div>
     </div>
     
