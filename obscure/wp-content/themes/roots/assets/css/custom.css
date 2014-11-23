@@ -92,6 +92,10 @@ body .page-header {
 
 aside { }
 
+aside .btn {
+	margin-bottom: 30px;
+}
+
 
 
 /*Page Specific*/
@@ -124,6 +128,13 @@ body.contact input[type="email"] {
 	color: #FFF;
 }
 
+@media( max-width: 767px ) {
+	.logo-img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}
 
 @media( min-width: 992px ) {
 	#menu-primary-navigation {

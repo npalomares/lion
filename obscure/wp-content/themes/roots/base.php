@@ -24,7 +24,7 @@
         <h6 class="text-center"><i>Opening December 2nd, 2014</i></h6>
         <?php //echo do_shortcode('[gm_slideshow]'); ?>
         <p class="text-center">
-          <img src="http://localhost/lion/obscure/media/logoSM.jpg" alt="The Little Lion Cafe and Bar" title="The Little Lion Cafe and Bar" class="" />
+          <img src="http://localhost/lion/obscure/media/logoSM.jpg" alt="The Little Lion Cafe and Bar" title="The Little Lion Cafe and Bar" class="logo-img" />
         </p>
         <?php //echo do_shortcode('[gm_slideshow]'); ?>
       </div>
@@ -39,7 +39,9 @@
     </section>
     
     <?php } else { ?>
+    
 
+    <!-- This may go away - Opt for different design -->
     <div class="interior-banner-wrap">
       <div class="interior-banner container">
         <h2 class="banner-title text-center"><?php the_title(); ?></h2>
