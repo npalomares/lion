@@ -4,6 +4,10 @@
 
 */
 
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+
+
 body { 
 	/*background-color: #000;*/
 }
@@ -26,7 +30,11 @@ header { }
 
 /*Home page and Interior page banners*/
 .slideshow-wrap { 
-	padding-top: 30px;
+	/*padding-top: 30px;*/
+	background: url(../img/ob_bg.jpg) no-repeat center top;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 .interior-banner-wrap {
@@ -49,7 +57,7 @@ h2.banner-title {
 }
 
 body.home .cta-wrapper {
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 }
 .cta-wrapper {
 	padding-top: 30px;
@@ -68,7 +76,9 @@ body.home .cta-wrapper {
 	text-align: center;
 	margin-bottom: 20px;
 }
-
+body.home .wrap {
+	display: none;
+}
 
 
 
