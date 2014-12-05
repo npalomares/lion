@@ -134,9 +134,12 @@ body.contact input[type="email"] {
 .footer-wrap {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #2c2c2c;
+	background-color: #000;
 	color: #FFF;
 }
+
+
+
 
 @media( max-width: 767px ) {
 	.logo-img {
@@ -145,6 +148,16 @@ body.contact input[type="email"] {
 		display: block;
 	}
 }
+
+@media( min-width: 768px ) {
+	.metaslider {
+		position: absolute !important;
+		z-index: 0 !important;
+		top: 115px !important;
+		right: 74px !important;
+	}
+}
+
 
 @media( min-width: 992px ) {
 	#menu-primary-navigation {

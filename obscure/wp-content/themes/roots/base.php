@@ -24,6 +24,7 @@
         <?php //echo do_shortcode('[gm_slideshow]'); ?>
           <img src="http://localhost/lion/obscure/wp-content/themes/roots/assets/img/logo-xs.png" alt="The Little Lion Cafe and Bar" title="The Little Lion Cafe and Bar" class="logo-img" />
         <?php //echo do_shortcode('[gm_slideshow]'); ?>
+        <?php echo do_shortcode('[metaslider id=35]'); ?>
       </div>
     </div>
 
