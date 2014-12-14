@@ -21,10 +21,12 @@
   <?php if( is_front_page() ) { ?>
     <div class="slideshow-wrap">
       <div class="slideshow container">
+        <h6 class="text-center"><i>Opening December 2nd, 2014</i></h6>
+        <?php echo do_shortcode('[metaslider id=43]'); ?>
+        <!-- <p class="text-center">
+          <img src="http://localhost/lion/obscure/media/logoSM.jpg" alt="The Little Lion Cafe and Bar" title="The Little Lion Cafe and Bar" class="logo-img" />
+        </p> -->
         <?php //echo do_shortcode('[gm_slideshow]'); ?>
-          <img src="http://localhost/lion/obscure/wp-content/themes/roots/assets/img/logo-xs.png" alt="The Little Lion Cafe and Bar" title="The Little Lion Cafe and Bar" class="logo-img" />
-        <?php //echo do_shortcode('[gm_slideshow]'); ?>
-        <?php echo do_shortcode('[metaslider id=35]'); ?>
       </div>
     </div>
 
@@ -73,6 +75,24 @@
     </section>
 
   <?php } ?>
+
+  <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Join Our Newsletter</h4>
+      </div>
+      <div class="modal-body">
+        <?php echo do_shortcode('[contact-form-7 id="51" title="Newsletter"]'); ?>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <?php get_template_part('templates/footer'); ?>
 
